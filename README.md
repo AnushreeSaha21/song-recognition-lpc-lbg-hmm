@@ -133,7 +133,7 @@ lbg.cpp
 
 ### 3. Generate Observation Sequences
 
-vq_observations.cpp
+observation_seq.cpp
 
 
 ### 4. Train HMM Models
