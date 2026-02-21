@@ -30,23 +30,7 @@ This project was built to deeply understand the **signal processing → modeling
 ---
 
 ## 🧠 Pipeline Overview
-Audio Recording
-↓
-Pre-processing (DC shift + normalization)
-↓
-Framing + Hamming Window
-↓
-LPC → Cepstral Coefficients (C1–C12)
-↓
-Universe Creation
-↓
-LBG Vector Quantization → Codebook
-↓
-Observation Sequence Generation
-↓
-HMM Training (Baum-Welch)
-↓
-Live Recognition (Forward Algorithm)
+Audio Recording → Pre-processing (DC shift + normalization) → Framing + Hamming Window → LPC → Cepstral Coefficients (C1–C12) → Universe Creation → LBG Vector Quantization → Codebook → Observation Sequence Generation → HMM Training (Baum-Welch) → Live Recognition (Forward Algorithm)
 
 ---
 
